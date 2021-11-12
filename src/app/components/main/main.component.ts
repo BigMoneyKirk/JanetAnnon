@@ -10,10 +10,10 @@ import { VCard } from "ngx-vcard";
 })
 export class MainComponent implements OnInit {
 
-  public businessName: string = "Savannah Picnic by Luxy Nics";
-  public personName: string = "Kate Ward"
-  public telephone: string = "912-677-1512";
-  public email: string = "kate@savannahpicnic.com";
+  public businessName: string = "Janet A. Annan";
+  public personName: string = "Founder and CEO - Advance Level Coaching Institute"
+  public telephone: string = "312-399-8385";
+  public email: string = "J.annan@advancelci.com";
 
   constructor(public imageService: ImageService) { }
 

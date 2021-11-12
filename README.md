@@ -9,5 +9,5 @@ https://github.com/angular-schule/angular-cli-ghpages/#readme
 Update the `angular.json` names
 
 `ng add angular-cli-ghpages`
-`ng build --prod --base-href="https://BigMoneyKirk.github.io/LuxyNics_QR/"`
-`npx angular-cli-ghpages --dir=dist/LuxyNics_QR`
+`ng build --prod --base-href="https://BigMoneyKirk.github.io/JanetAnnon/"`
+`npx angular-cli-ghpages --dir=dist/JanetAnnon`

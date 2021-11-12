@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ImageService {
 
-  public profile: string = "assets/images/logos/luxy_nics_logo.jpg";
+  public profile: string = "assets/images/profile/janet.jpg";
 
   constructor() { }
 }
