@@ -1,7 +1,6 @@
-$light-brown-border: #caa181;
-$maroon-border: #420101;
-$wine-red: #690b22;
-$dark-brown: #290101;
+$diamond: #B9DEFF;
+$royalpurple: #A85CFF;
+$compliment_blue: #85BCFF;
 
 .app-container {
     height: 98vh;
@@ -31,10 +30,10 @@ $dark-brown: #290101;
 .card-part {
     width: 80%;
     backdrop-filter: blur(6px);
-    border: 1px solid $light-brown-border;
+    border: 1px solid $royalpurple;
     border-radius: 5px;
     margin: 40px 10px;
-    box-shadow: 0px 5px 30px #420101, -15px 15px 0.35rem #290101, 3px -3px 1rem #52151c;
+    box-shadow: 0px 5px 30px $diamond, -15px 15px 0.35rem $royalpurple, 3px -3px 1rem #52151c;
     animation: animate 6.5s ease-in-out infinite;
     text-align: center;
     font-family: Gilroy-Light;
@@ -51,7 +50,7 @@ $dark-brown: #290101;
 
 .personal-info {
     margin: 0 20px;
-    color: green;
+    color: $royalpurple;
 }
 
 h1 {
@@ -63,8 +62,8 @@ img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 5px solid green;
-    box-shadow: 0px 5px 30px rgb(63, 59, 66), -15px 15px 0.35rem $maroon-border, 3px -3px 1rem white;
+    border: 5px solid $royalpurple;
+    box-shadow: 0px 5px 30px rgb(63, 59, 66), -15px 15px 0.35rem $diamond, 3px -3px 1rem white;
 }
 
 ul{
@@ -80,10 +79,10 @@ li {
 li a {
     text-decoration: none;
     backdrop-filter: blur(10px);
-    border: 2px solid whitesmoke;
+    border: 2px solid $royalpurple;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: $compliment_blue;
     padding: 15px;
     width: 48px;
     height: 48px;

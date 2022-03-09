@@ -10,8 +10,10 @@ import { VCard } from "ngx-vcard";
 })
 export class MainComponent implements OnInit {
 
-  public businessName: string = "Janet A. Annan";
-  public personName: string = "Founder and CEO - Advance Level Coaching Institute"
+  public firstName: string = "Janet A.";
+  public lastName: string = "Annan";
+  public _role: string = "Founder and CEO"
+  public businessName: string = "Advance Level Coaching Institute"
   public telephone: string = "312-399-8385";
   public email: string = "J.annan@advancelci.com";
 
@@ -22,14 +24,16 @@ export class MainComponent implements OnInit {
 
   public vCard: VCard = {
     name: {
-      firstNames: this.businessName
+      firstNames: this.firstName,
+      lastNames: this.lastName
     },
+    role: this._role,
+    organization: this.businessName,
     telephone: [this.telephone],
     email: [this.email],
     workEmail: [this.email],
-    role: "CEO of Luxy Nics",
-    url: "https://savannahpicnic.com/",
-    logo: "../../assets/images/logos/luxy_nics_logo.jpg",
+    url: "https://safc2.com/",
+    logo: "../../assets/images/logos/janets_logo.jpeg",
   };
 
 }
